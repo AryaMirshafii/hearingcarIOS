@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D125AAD52027987300638526 /* mainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D125AAD42027987300638526 /* mainScreen.swift */; };
 		D13E453D2026BCE600477316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E453C2026BCE600477316 /* AppDelegate.swift */; };
 		D13E453F2026BCE600477316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E453E2026BCE600477316 /* ViewController.swift */; };
 		D13E45422026BCE600477316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13E45402026BCE600477316 /* Main.storyboard */; };
 		D13E45452026BCE600477316 /* headingCar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D13E45432026BCE600477316 /* headingCar.xcdatamodeld */; };
 		D13E45472026BCE600477316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13E45462026BCE600477316 /* Assets.xcassets */; };
 		D13E454A2026BCE600477316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13E45482026BCE600477316 /* LaunchScreen.storyboard */; };
+		D13E45662026BF3000477316 /* warningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E45652026BF3000477316 /* warningScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D125AAD42027987300638526 /* mainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainScreen.swift; sourceTree = "<group>"; };
 		D13E45392026BCE600477316 /* headingCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = headingCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13E453C2026BCE600477316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D13E453E2026BCE600477316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,26 @@
 		D13E45462026BCE600477316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D13E45492026BCE600477316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D13E454B2026BCE600477316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13E45522026BDEE00477316 /* HKGrotesk-SemiBoldItalicLegacy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-SemiBoldItalicLegacy.ttf"; sourceTree = "<group>"; };
+		D13E45532026BDEF00477316 /* HKGrotesk-LightLegacy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-LightLegacy.ttf"; sourceTree = "<group>"; };
+		D13E45542026BDEF00477316 /* HKGrotesk-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-Medium.ttf"; sourceTree = "<group>"; };
+		D13E45552026BDEF00477316 /* HKGrotesk-BoldLegacy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-BoldLegacy.ttf"; sourceTree = "<group>"; };
+		D13E45562026BDF000477316 /* HKGrotesk-MediumLegacy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-MediumLegacy.ttf"; sourceTree = "<group>"; };
+		D13E45572026BDF000477316 /* HKGrotesk-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-Regular.ttf"; sourceTree = "<group>"; };
+		D13E45582026BDF000477316 /* HKGrotesk-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D13E45592026BDF000477316 /* HKGrotesk-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-Italic.ttf"; sourceTree = "<group>"; };
+		D13E455A2026BDF100477316 /* HKGrotesk-LightItalicLegacy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-LightItalicLegacy.ttf"; sourceTree = "<group>"; };
+		D13E455B2026BDF100477316 /* HKGrotesk-ItalicLegacy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-ItalicLegacy.ttf"; sourceTree = "<group>"; };
+		D13E455C2026BDF100477316 /* HKGrotesk-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D13E455D2026BDF100477316 /* HKGrotesk-SemiBoldLegacy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-SemiBoldLegacy.ttf"; sourceTree = "<group>"; };
+		D13E455E2026BDF200477316 /* HKGrotesk-RegularLegacy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-RegularLegacy.ttf"; sourceTree = "<group>"; };
+		D13E455F2026BDF200477316 /* HKGrotesk-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-Light.ttf"; sourceTree = "<group>"; };
+		D13E45602026BDF200477316 /* HKGrotesk-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-SemiBold.ttf"; sourceTree = "<group>"; };
+		D13E45612026BDF300477316 /* HKGrotesk-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D13E45622026BDF300477316 /* HKGrotesk-BoldItalicLegacy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-BoldItalicLegacy.ttf"; sourceTree = "<group>"; };
+		D13E45632026BDF300477316 /* HKGrotesk-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-LightItalic.ttf"; sourceTree = "<group>"; };
+		D13E45642026BDF400477316 /* HKGrotesk-MediumItalicLegacy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-MediumItalicLegacy.ttf"; sourceTree = "<group>"; };
+		D13E45652026BF3000477316 /* warningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warningScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +79,44 @@
 		D13E453B2026BCE600477316 /* headingCar */ = {
 			isa = PBXGroup;
 			children = (
+				D13E45512026BDE200477316 /* Fonts */,
 				D13E453C2026BCE600477316 /* AppDelegate.swift */,
 				D13E453E2026BCE600477316 /* ViewController.swift */,
 				D13E45402026BCE600477316 /* Main.storyboard */,
+				D125AAD42027987300638526 /* mainScreen.swift */,
+				D13E45652026BF3000477316 /* warningScreen.swift */,
 				D13E45462026BCE600477316 /* Assets.xcassets */,
 				D13E45482026BCE600477316 /* LaunchScreen.storyboard */,
 				D13E454B2026BCE600477316 /* Info.plist */,
 				D13E45432026BCE600477316 /* headingCar.xcdatamodeld */,
 			);
 			path = headingCar;
+			sourceTree = "<group>";
+		};
+		D13E45512026BDE200477316 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D13E45582026BDF000477316 /* HKGrotesk-BoldItalic.ttf */,
+				D13E45622026BDF300477316 /* HKGrotesk-BoldItalicLegacy.ttf */,
+				D13E45552026BDEF00477316 /* HKGrotesk-BoldLegacy.ttf */,
+				D13E45592026BDF000477316 /* HKGrotesk-Italic.ttf */,
+				D13E455B2026BDF100477316 /* HKGrotesk-ItalicLegacy.ttf */,
+				D13E455F2026BDF200477316 /* HKGrotesk-Light.ttf */,
+				D13E45632026BDF300477316 /* HKGrotesk-LightItalic.ttf */,
+				D13E455A2026BDF100477316 /* HKGrotesk-LightItalicLegacy.ttf */,
+				D13E45532026BDEF00477316 /* HKGrotesk-LightLegacy.ttf */,
+				D13E45542026BDEF00477316 /* HKGrotesk-Medium.ttf */,
+				D13E455C2026BDF100477316 /* HKGrotesk-MediumItalic.ttf */,
+				D13E45642026BDF400477316 /* HKGrotesk-MediumItalicLegacy.ttf */,
+				D13E45562026BDF000477316 /* HKGrotesk-MediumLegacy.ttf */,
+				D13E45572026BDF000477316 /* HKGrotesk-Regular.ttf */,
+				D13E455E2026BDF200477316 /* HKGrotesk-RegularLegacy.ttf */,
+				D13E45602026BDF200477316 /* HKGrotesk-SemiBold.ttf */,
+				D13E45612026BDF300477316 /* HKGrotesk-SemiBoldItalic.ttf */,
+				D13E45522026BDEE00477316 /* HKGrotesk-SemiBoldItalicLegacy.ttf */,
+				D13E455D2026BDF100477316 /* HKGrotesk-SemiBoldLegacy.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +191,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13E45662026BF3000477316 /* warningScreen.swift in Sources */,
 				D13E45452026BCE600477316 /* headingCar.xcdatamodeld in Sources */,
+				D125AAD52027987300638526 /* mainScreen.swift in Sources */,
 				D13E453F2026BCE600477316 /* ViewController.swift in Sources */,
 				D13E453D2026BCE600477316 /* AppDelegate.swift in Sources */,
 			);
@@ -281,6 +335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4XKW822R6;
 				INFOPLIST_FILE = headingCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = georgiaTechEngineeringForInnovationGroup.headingCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +351,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4XKW822R6;
 				INFOPLIST_FILE = headingCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = georgiaTechEngineeringForInnovationGroup.headingCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
