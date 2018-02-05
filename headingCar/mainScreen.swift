@@ -8,6 +8,26 @@
 
 import Foundation
 import UIKit
+import UICircularProgressRing
 class mainScreen: UIViewController {
     
+    
+    @IBOutlet weak var batteryView: UICircularProgressRingView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        batteryView.layer.cornerRadius = batteryView.frame.height/2
+        batteryView.clipsToBounds = true
+        
+        
+        
+        
+        
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+        
+    }
 }
