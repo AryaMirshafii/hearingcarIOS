@@ -25,6 +25,14 @@ class mainScreen: UIViewController {
         
     }
     
+    
+    @IBAction func triggerLeftWarning(_ sender: Any) {
+        performSegue(withIdentifier: "leftHornWarning", sender: nil)
+    }
+    @IBAction func triggerRightWarning(_ sender: Any) {
+        performSegue(withIdentifier: "rightHornWarning", sender: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         

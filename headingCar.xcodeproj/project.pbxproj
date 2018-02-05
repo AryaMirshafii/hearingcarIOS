@@ -16,6 +16,8 @@
 		D13E45472026BCE600477316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13E45462026BCE600477316 /* Assets.xcassets */; };
 		D13E454A2026BCE600477316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13E45482026BCE600477316 /* LaunchScreen.storyboard */; };
 		D13E45662026BF3000477316 /* warningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E45652026BF3000477316 /* warningScreen.swift */; };
+		D1D0A8322028F9E700B0A2C0 /* rightWarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D0A8312028F9E700B0A2C0 /* rightWarningView.swift */; };
+		D1D0A8342028FA1400B0A2C0 /* leftWarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D0A8332028FA1400B0A2C0 /* leftWarningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		D13E45632026BDF300477316 /* HKGrotesk-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-LightItalic.ttf"; sourceTree = "<group>"; };
 		D13E45642026BDF400477316 /* HKGrotesk-MediumItalicLegacy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-MediumItalicLegacy.ttf"; sourceTree = "<group>"; };
 		D13E45652026BF3000477316 /* warningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warningScreen.swift; sourceTree = "<group>"; };
+		D1D0A8312028F9E700B0A2C0 /* rightWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rightWarningView.swift; sourceTree = "<group>"; };
+		D1D0A8332028FA1400B0A2C0 /* leftWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leftWarningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +111,9 @@
 				D13E453C2026BCE600477316 /* AppDelegate.swift */,
 				D13E453E2026BCE600477316 /* ViewController.swift */,
 				D13E45402026BCE600477316 /* Main.storyboard */,
+				D1D0A8332028FA1400B0A2C0 /* leftWarningView.swift */,
 				D125AAD42027987300638526 /* mainScreen.swift */,
+				D1D0A8312028F9E700B0A2C0 /* rightWarningView.swift */,
 				D13E45652026BF3000477316 /* warningScreen.swift */,
 				D13E45462026BCE600477316 /* Assets.xcassets */,
 				D13E45482026BCE600477316 /* LaunchScreen.storyboard */,
@@ -274,6 +280,8 @@
 			files = (
 				D13E45662026BF3000477316 /* warningScreen.swift in Sources */,
 				D13E45452026BCE600477316 /* headingCar.xcdatamodeld in Sources */,
+				D1D0A8322028F9E700B0A2C0 /* rightWarningView.swift in Sources */,
+				D1D0A8342028FA1400B0A2C0 /* leftWarningView.swift in Sources */,
 				D125AAD52027987300638526 /* mainScreen.swift in Sources */,
 				D13E453F2026BCE600477316 /* ViewController.swift in Sources */,
 				D13E453D2026BCE600477316 /* AppDelegate.swift in Sources */,
