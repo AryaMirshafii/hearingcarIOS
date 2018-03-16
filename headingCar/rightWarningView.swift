@@ -10,5 +10,7 @@ import Foundation
 import UIKit
 class rightWarningView: leftWarningView {
     
+    // this class isnt empty its just that most of its functionality is already implemented in leftWarningView
+    
 
 }
