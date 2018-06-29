@@ -9,15 +9,20 @@
 import Foundation
 import UIKit
 import UICircularProgressRing
+
 class mainScreen: UIViewController {
     
     
-    @IBOutlet weak var batteryView: UICircularProgressRingView!
+    @IBOutlet weak var batteryView: UICircularProgressRing!
+    private var bluetoothConnector:BluetoothHandler!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         batteryView.layer.cornerRadius = batteryView.frame.height/2
         batteryView.clipsToBounds = true
+        
+        bluetoothConnector = BluetoothHandler()
         
         
         

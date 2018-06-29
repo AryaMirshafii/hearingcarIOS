@@ -172,7 +172,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="hRo-3N-XT2">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="602"/>
                             </imageView>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOT-IN-gSh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOT-IN-gSh">
                                 <rect key="frame" x="16" y="10" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.2816441449" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Left"/>
@@ -210,7 +210,7 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="slP-48-AQl" customClass="UICircularProgressRingView" customModule="UICircularProgressRing">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="slP-48-AQl" customClass="UICircularProgressRing" customModule="UICircularProgressRing">
                                 <rect key="frame" x="73" y="28" width="175" height="175"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -441,7 +441,7 @@
                                 <fontDescription key="fontDescription" name="HKGrotesk-SemiBoldLegacy" family="HK Grotesk" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3M-AB-1bD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3M-AB-1bD">
                                 <rect key="frame" x="264" y="10" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -455,7 +455,7 @@
                                     <action selector="leftSirenTrigger:" destination="f3n-ra-BjS" eventType="touchUpInside" id="LPq-Ov-zi7"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1QM-Vg-d2B">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1QM-Vg-d2B">
                                 <rect key="frame" x="16" y="58" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.2816441449" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Right"/>
@@ -463,7 +463,7 @@
                                     <action selector="rightHornTrigger:" destination="f3n-ra-BjS" eventType="touchUpInside" id="8Et-SI-4J0"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wqk-Z7-svQ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wqk-Z7-svQ">
                                 <rect key="frame" x="264" y="58" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -594,7 +594,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="o2U-M1-tiZ"/>
                     <connections>
-                        <outlet property="batteryView" destination="slP-48-AQl" id="2Ez-YV-4f9"/>
+                        <outlet property="batteryView" destination="slP-48-AQl" id="Pqb-Th-hmo"/>
                         <segue destination="oFM-D1-nGO" kind="popoverPresentation" identifier="leftHornWarning" popoverAnchorView="LOT-IN-gSh" id="95b-ce-70O">
                             <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                         </segue>
