@@ -8,19 +8,22 @@
 
 import Foundation
 import UIKit
-import UICircularProgressRing
+
 
 class mainScreen: UIViewController {
     
     
-    @IBOutlet weak var batteryView: UICircularProgressRing!
+    @IBOutlet weak var directionLabel: UITextView!
+    @IBOutlet weak var speedLabel: UITextView!
+    @IBOutlet weak var settingsButton: UIButton!
+    @IBOutlet weak var helpButton: UIButton!
+    
     private var bluetoothConnector:BluetoothHandler!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        batteryView.layer.cornerRadius = batteryView.frame.height/2
-        batteryView.clipsToBounds = true
+        
         
         bluetoothConnector = BluetoothHandler()
         
@@ -52,9 +55,17 @@ class mainScreen: UIViewController {
         performSegue(withIdentifier: "rightSiren", sender: nil)
     }
     
+    
+    @IBAction func settingsPressed(_ sender: Any) {
+        performSegue(withIdentifier: "goToSettings", sender: nil)
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
         
     }
+    
+    
 }

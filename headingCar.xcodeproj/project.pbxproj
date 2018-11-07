@@ -23,6 +23,11 @@
 		D197AEF02059DE7200B4FA85 /* RxBluetoothKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D197AEF12059DE7200B4FA85 /* RxBluetoothKit.framework */; };
 		D1D0A8322028F9E700B0A2C0 /* rightWarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D0A8312028F9E700B0A2C0 /* rightWarningView.swift */; };
 		D1D0A8342028FA1400B0A2C0 /* leftWarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D0A8332028FA1400B0A2C0 /* leftWarningView.swift */; };
+		D1E9335C21936B9D00089866 /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E9335B21936B9D00089866 /* SettingScreen.swift */; };
+		D1E9335E21936D0600089866 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E9335D21936D0600089866 /* SettingCell.swift */; };
+		D1E933602193740200089866 /* OkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E9335F2193740200089866 /* OkCell.swift */; };
+		D1E9336221937E2B00089866 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E9336121937E2B00089866 /* TitleCell.swift */; };
+		D1E9336421937FCE00089866 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E9336321937FCE00089866 /* SettingsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +70,11 @@
 		D197AEF12059DE7200B4FA85 /* RxBluetoothKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxBluetoothKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D0A8312028F9E700B0A2C0 /* rightWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rightWarningView.swift; sourceTree = "<group>"; };
 		D1D0A8332028FA1400B0A2C0 /* leftWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leftWarningView.swift; sourceTree = "<group>"; };
+		D1E9335B21936B9D00089866 /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
+		D1E9335D21936D0600089866 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		D1E9335F2193740200089866 /* OkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkCell.swift; sourceTree = "<group>"; };
+		D1E9336121937E2B00089866 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		D1E9336321937FCE00089866 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +135,13 @@
 				D13E45402026BCE600477316 /* Main.storyboard */,
 				D1D0A8332028FA1400B0A2C0 /* leftWarningView.swift */,
 				D125AAD42027987300638526 /* mainScreen.swift */,
+				D1E9335F2193740200089866 /* OkCell.swift */,
+				D1E9336121937E2B00089866 /* TitleCell.swift */,
+				D1E9335B21936B9D00089866 /* SettingScreen.swift */,
+				D1E9335D21936D0600089866 /* SettingCell.swift */,
 				D1547C5020E6C6D700CB0EAC /* BluetoothHandler.swift */,
 				D18617D82050B6600055F75E /* dataController.swift */,
+				D1E9336321937FCE00089866 /* SettingsManager.swift */,
 				D1D0A8312028F9E700B0A2C0 /* rightWarningView.swift */,
 				D18617D22050ADFD0055F75E /* rightSirenWarning.swift */,
 				D18617D42050AE4B0055F75E /* leftSirenWarning.swift */,
@@ -298,15 +313,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E9335C21936B9D00089866 /* SettingScreen.swift in Sources */,
+				D1E933602193740200089866 /* OkCell.swift in Sources */,
 				D13E45662026BF3000477316 /* warningScreen.swift in Sources */,
 				D13E45452026BCE600477316 /* headingCar.xcdatamodeld in Sources */,
 				D1D0A8322028F9E700B0A2C0 /* rightWarningView.swift in Sources */,
 				D1D0A8342028FA1400B0A2C0 /* leftWarningView.swift in Sources */,
 				D125AAD52027987300638526 /* mainScreen.swift in Sources */,
 				D1547C5120E6C6D700CB0EAC /* BluetoothHandler.swift in Sources */,
+				D1E9335E21936D0600089866 /* SettingCell.swift in Sources */,
 				D13E453F2026BCE600477316 /* ViewController.swift in Sources */,
 				D18617D52050AE4B0055F75E /* leftSirenWarning.swift in Sources */,
 				D13E453D2026BCE600477316 /* AppDelegate.swift in Sources */,
+				D1E9336421937FCE00089866 /* SettingsManager.swift in Sources */,
+				D1E9336221937E2B00089866 /* TitleCell.swift in Sources */,
 				D18617D32050ADFD0055F75E /* rightSirenWarning.swift in Sources */,
 				D18617D92050B6600055F75E /* dataController.swift in Sources */,
 			);

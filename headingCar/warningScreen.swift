@@ -10,12 +10,16 @@ import Foundation
 import UIKit
 
 class warningScreen: UIViewController {
+    @IBOutlet weak var continueButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
         self.navigationController?.view.backgroundColor = .clear
+        
+        continueButton.layer.cornerRadius = 15
+        continueButton.clipsToBounds = true
         // Do any additional setup after loading the view, typically from a nib.
     }
     
